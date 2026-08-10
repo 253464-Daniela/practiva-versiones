@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .header-container {
+        border: 1px solid red;
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        padding: 12px;
+        justify-items: center;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .header-columns {
+        width: calc(100% - 30px);
+        height: calc(100% - 24px);
+        border: 1px solid green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 12px;
+        div {
+            border: 1px solid blue;
+        }
+      }
+
+      .diferente{
+        border: none !important;
+      }
+
+      .text-center{
+        text-align: center;
+      }
+
+      .container-items-header{
+        justify-content: flex-end;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header-container">
+      <div class="header-columns">
+        <h1 class="text-center">TRADE</h1>
+      </div>
+      <div class="header-columns container-items-header">
+        <div>
+            <h4>
+                link 1
+            </h4>
+        </div>
+        <div>
+            <h4>
+                link 1
+            </h4>
+        </div>
+        <div>
+            <h4>
+                link 1
+            </h4>
+        </div>
+        <div>
+            <h4>
+                link 1
+            </h4>
+        </div>
+        <div>
+            <h4>
+                link 1
+            </h4>
+        </div>
+        <div class="diferente">
+            <button>
+                Sing Up
+            </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
